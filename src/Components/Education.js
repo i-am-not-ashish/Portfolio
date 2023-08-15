@@ -98,7 +98,7 @@ export default function Education() {
         className="container d-flex justify-content-center"
         style={{ marginBottom: "60px" }}
       >
-        <img src="/busines2.png" alt="img" style={{ width: "50%" }} />
+        <img src="./Portfolio/busines2.png" alt="img" style={{ width: "50%" }} />
       </div>
     </>
   );
