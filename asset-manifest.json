@@ -1,15 +1,23 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/Portfolio/static/js/main.fa27aeb5.js",
+    "main.js": "/Portfolio/static/js/main.3b3502af.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/me.jpg": "/Portfolio/static/media/me.808a9cd057a98b5eb3a0.jpg",
+    "static/media/social.png": "/Portfolio/static/media/social.da5e9f0ead7fb4533ff6.png",
+    "static/media/busines2.png": "/Portfolio/static/media/busines2.ca43f9388a3f7735bfa1.png",
+    "static/media/kid.png": "/Portfolio/static/media/kid.edc9b59358ab3a3e4a4e.png",
+    "static/media/im.png": "/Portfolio/static/media/im.dfa023d26ffd1784a113.png",
+    "static/media/skills.png": "/Portfolio/static/media/skills.90f416e798ef026e3606.png",
+    "static/media/iot2.png": "/Portfolio/static/media/iot2.ea75e1004effa1eb6141.png",
+    "static/media/iot.png": "/Portfolio/static/media/iot.f1ca21e83f29e5056ebe.png",
     "index.html": "/Portfolio/index.html",
     "main.073c9b0a.css.map": "/Portfolio/static/css/main.073c9b0a.css.map",
-    "main.fa27aeb5.js.map": "/Portfolio/static/js/main.fa27aeb5.js.map",
+    "main.3b3502af.js.map": "/Portfolio/static/js/main.3b3502af.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.fa27aeb5.js"
+    "static/js/main.3b3502af.js"
   ]
 }
