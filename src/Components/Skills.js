@@ -1,5 +1,5 @@
 import React from "react";
-
+import skills from './Images/skills.png'
 export default function Skills() {
   return (
     <>
@@ -45,7 +45,7 @@ export default function Skills() {
             </ul>
           </div>
           <div className="col-lg-6">
-            <img src="/skills.png" alt="skills" style={{ width: "85%" }} />
+            <img src={skills} alt="skills" style={{ width: "85%" }} />
           </div>
         </div>
       </div>

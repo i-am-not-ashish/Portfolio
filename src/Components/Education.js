@@ -1,5 +1,5 @@
 import React from "react";
-
+import busines2 from "./Images/busines2.png"
 export default function Education() {
   return (
     <>
@@ -98,7 +98,7 @@ export default function Education() {
         className="container d-flex justify-content-center"
         style={{ marginBottom: "60px" }}
       >
-        <img src="./Portfolio/busines2.png" alt="img" style={{ width: "50%" }} />
+        <img src={busines2} alt="img" style={{ width: "50%" }} />
       </div>
     </>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import im from './Images/im.png'
 export default function Home() {
   return (
     <div className="container-fluid">
@@ -19,7 +20,7 @@ export default function Home() {
           </p>
         </div>
         <div className="col-lg-6 d-flex justify-content-end">
-          <img src="/im.png" alt="Wait" style={{ width: "90%" }} />
+          <img src={im} alt="Wait" style={{ width: "90%" }} />
         </div>
       </div>
     </div>

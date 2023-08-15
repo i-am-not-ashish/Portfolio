@@ -1,5 +1,13 @@
 import React from "react";
-
+import gmail from './Images/gmail.png'
+import x from './Images/x.png'
+import fb from './Images/fb.png'
+import insta from './Images/insta.png'
+import git from './Images/git.png'
+import phone from './Images/phone.png'
+import me from './Images/me.jpg'
+import social from './Images/social.png'
+import linkedin from './Images/in.png'
 export default function Contact() {
   return (
     <>
@@ -22,7 +30,7 @@ export default function Contact() {
         }}
       >
         <img
-          src="/me.jpg"
+          src={me}
           alt="me"
           style={{ width: "20%" ,marginBottom:"20px"}}
           className="rounded-circle"
@@ -51,11 +59,11 @@ export default function Contact() {
             <ul style={{ textAlign: "left" }}>
               <h2>Contact Us-</h2>
               <li>
-                <img src="/phone.png" alt="phone" />
+                <img src={phone} alt="phone" />
                 +91 9058369230
               </li>
               <li>
-                <img src="/gmail.png" alt="gmail" />
+                <img src={gmail} alt="gmail" />
                 <a
                   href="https://mail.google.com/mail/?view=cm&fs=1&to=ashish563228@gmail.com"
                   target="_blank"
@@ -66,7 +74,7 @@ export default function Contact() {
                 </a>
               </li>
               <li>
-                <img src="/gmail.png" alt="gmail" />
+                <img src={gmail} alt="gmail" />
                 <a
                   href="https://mail.google.com/mail/?view=cm&fs=1&to=darklegend9912@gmail.com"
                   target="_blank"
@@ -84,7 +92,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   className="mx-2"
                 >
-                  <img src="/fb.png" alt="fb" />
+                  <img src={fb} alt="fb" />
                   Facebook
                 </a>
               </li>
@@ -95,7 +103,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   className="mx-2"
                 >
-                  <img src="/insta.png" alt="instagram" />
+                  <img src={insta} alt="instagram" />
                   Instagram
                 </a>
               </li>
@@ -106,7 +114,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   className="mx-2"
                 >
-                  <img src="/in.png" alt="in" />
+                  <img src={linkedin} alt="in" />
                   LinkedIn
                 </a>
               </li>
@@ -117,7 +125,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   className="mx-2"
                 >
-                  <img src="/x.png" alt="x" />X
+                  <img src={x} alt="x" />X
                 </a>
               </li>
               <li>
@@ -127,14 +135,14 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   className="mx-2"
                 >
-                  <img src="/git.png" alt="git" />
+                  <img src={git} alt="git" />
                   Github
                 </a>
               </li>
             </ul>
           </div>
           <div className="col-lg-6">
-            <img src="/social.png" alt="social" style={{ width: "75%" }} />
+            <img src={social} alt="social" style={{ width: "75%" }} />
           </div>
         </div>
       </div>

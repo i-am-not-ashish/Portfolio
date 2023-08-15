@@ -1,5 +1,6 @@
 import React from "react";
-
+import iot from './Images/iot.png'
+import iot2 from './Images/iot2.png'
 export default function Core() {
   return (
     <>
@@ -17,10 +18,10 @@ export default function Core() {
         <div className="row">
           <div className="col-lg-6 my-4 " style={{ textAlign: "center" }}>
             <div>
-              <img src="/iot.png" alt="i1" style={{ width: "70%" }} />
+              <img src={iot} alt="i1" style={{ width: "70%" }} />
             </div>
             <div>
-              <img src="/iot2.png" alt="i2" style={{ width: "70%" }} />
+              <img src={iot2} alt="i2" style={{ width: "70%" }} />
             </div>
           </div>
           <div

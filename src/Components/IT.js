@@ -1,5 +1,5 @@
 import React from "react";
-
+import kid from './Images/kid.png'
 export default function IT() {
   return (
     <>
@@ -21,7 +21,7 @@ export default function IT() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6 d-flex justify-content-start">
-            <img src="/kid.png" alt="Wait" style={{ width: "90%" }} />
+            <img src={kid} alt="Wait" style={{ width: "90%" }} />
           </div>
           <div
             className="col-lg-5 rounded"
